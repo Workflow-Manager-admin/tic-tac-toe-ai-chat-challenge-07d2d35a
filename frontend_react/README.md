@@ -11,6 +11,17 @@ This project provides a minimal React template with a clean, modern UI and minim
 
 ## Getting Started
 
+### Setup OpenAI API Access
+
+This project uses the OpenAI API to generate AI trash talk for the chat pane.
+You must add your OpenAI API key to a `.env` file in this directory:
+
+```
+REACT_APP_OPENAI_API_KEY=your-key-here
+```
+
+(You can obtain an API key from https://platform.openai.com/)
+
 In the project directory, you can run:
 
 ### `npm start`
